@@ -1,0 +1,47 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 42px 0 20px 0;
+}
+
+.matches {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.matchHeader {
+    display: flex;
+}
+
+.matchFilter {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.matchTitle {
+    color: #ffffff;
+    font-style: italic;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.error {
+    color: #ffffff;
+    background-color: #0f1318;
+    padding: 14px 24px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    margin-right: 12px;
+}
+
+.errorText {
+    margin-left: 10px;
+}
+
+.skeleton {
+    margin-bottom: 20px;
+}

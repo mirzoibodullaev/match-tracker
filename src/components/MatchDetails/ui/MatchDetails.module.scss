@@ -1,0 +1,75 @@
+.selected {
+    cursor: auto;
+    background-color: #0b0e12;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 28px;
+}
+
+.players {
+    border-radius: 6px;
+}
+
+.player {
+    align-items: center;
+    display: flex;
+    gap: 8px;
+}
+
+.username {
+    margin-right: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.matchInfo {
+    padding: 14px 24px;
+    background-color: #101318;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 4px;
+}
+
+.userInfo {
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: #101318;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #fafafa66;
+}
+
+.kills {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.points,
+.place,
+.kills {
+    gap: 8px;
+    display: flex;
+    align-items: center;
+    color: #fafafa66;
+}
+
+.points,
+.place {
+    border-right: 1px solid #141a21;
+    padding-right: 90px;
+}
+
+.number {
+    color: #f2f6f6;
+    font-size: 16px;
+    font-weight: 600;
+}

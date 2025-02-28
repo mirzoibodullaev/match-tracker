@@ -1,0 +1,17 @@
+.Skeleton {
+    height: 87px;
+    width: 100%;
+    background: linear-gradient(90deg, #0B0F13, #0F1318, #0A0E12);
+    background-size: 200% 100%;
+    animation: skeleton-loading 1.5s infinite alternate;
+    margin-bottom: 20px;
+}
+
+@keyframes skeleton-loading {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
